@@ -190,27 +190,33 @@
             <h5 class=" text-center mt-3 px-4">Social Media</h5>
             <hr>
             <div class="container-fluid d-flex  flex-column">
-                <button type="button" class="btn btn-gw social rounded-pill d-flex justify-content-center">
+                <button onclick="ig()" type="button"
+                    class="btn btn-gw social rounded-pill d-flex justify-content-center">
                     <i class="bi bi-instagram"></i>
                     <span>Instagram</span>
                 </button>
-                <button type="button" class="btn btn-gw social rounded-pill d-flex justify-content-center">
+                <button onclick="git()" type="button"
+                    class="btn btn-gw social rounded-pill d-flex justify-content-center">
                     <i class="bi bi-github"></i>
                     <span>Github</span>
                 </button>
-                <button type="button" class="btn btn-gw social rounded-pill d-flex justify-content-center">
+                <button onclick="link()" type="button"
+                    class="btn btn-gw social rounded-pill d-flex justify-content-center">
                     <i class="bi bi-linkedin"></i>
                     <span>Linkedin</span>
                 </button>
-                <button type="button" class="btn btn-gw social rounded-pill d-flex justify-content-center">
+                <button onclick="yt()" type="button"
+                    class="btn btn-gw social rounded-pill d-flex justify-content-center">
                     <i class="bi bi-youtube"></i>
                     <span>Youtube</span>
                 </button>
-                <button type="button" class="btn btn-gw social rounded-pill d-flex justify-content-center">
+                <button onclick="twit()" type="button"
+                    class="btn btn-gw social rounded-pill d-flex justify-content-center">
                     <i class="bi bi-twitter"></i>
                     <span>Twitter</span>
                 </button>
-                <button type="button" class="btn btn-gw social rounded-pill d-flex justify-content-center">
+                <button onclick="tt()" type="button"
+                    class="btn btn-gw social rounded-pill d-flex justify-content-center">
                     <i class="bi bi-tiktok"></i>
                     <span>Tiktok</span>
                 </button>
@@ -232,6 +238,11 @@
         particlesJS.load('particles-js', 'particlesjs-config.json', function () {
             console.log('callback - particles.js config loaded');
         });
+
+        function ig() {
+            // location.href = 'https://www.instagram.com/agung.sapp/';
+            window.open('https://www.instagram.com/agung.sapp/', '_blank')
+        }
     </script>
 </body>
 
